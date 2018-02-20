@@ -7,6 +7,7 @@ install:
 
 script:
     - vendor/bin/statie generate source
+    - cp -rf source/svatba output
 
 deploy:
     provider: pages
