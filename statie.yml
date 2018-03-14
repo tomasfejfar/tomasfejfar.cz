@@ -1,3 +1,8 @@
 parameters:
   page:
     title: Tomáš Fejfar, PHP vývojář a lektor webového vývoje
+    training:
+      phpstorm:
+        hasNext: true
+        date: 2017-04-27
+
