@@ -5,4 +5,5 @@ parameters:
       phpstorm:
         hasNext: true
         date: 2017-04-27
+        loginForm: https://docs.google.com/forms/d/16zY7cLAjoyazqtcexF3EiWFw3umrb7XvA6UowH7puNM/edit
 

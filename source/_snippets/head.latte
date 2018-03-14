@@ -48,5 +48,18 @@
         .navbar-brand {
             font-size: 150%;
         }
+
+        h2 {
+            position: relative;
+        }
+        h2:target::before {
+            content: ' ▶ ';
+            color: #f00;
+            font-weight: bold;
+            position: absolute;
+            left: -1em;
+            font-family: Arial;
+            line-height: 135%;
+        }
     </style>
 </head>
