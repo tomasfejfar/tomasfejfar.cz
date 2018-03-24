@@ -5,7 +5,7 @@ parameters:
       phpstorm:
         hasNext: true
         date: 2018-04-27
-        loginForm: https://docs.google.com/forms/d/e/1FAIpQLSc9OLc2m2moBZJwsHIzSFWajs5VEGEfb-Zm7gE0kUQ0HGwn9Q/viewform?usp=sf_linkú
+        loginForm: https://docs.google.com/forms/d/e/1FAIpQLSc9OLc2m2moBZJwsHIzSFWajs5VEGEfb-Zm7gE0kUQ0HGwn9Q/viewform?usp=sf_link
         references:
           - text: S PhpStormem jsem nikdy předtím nedělal a byla to super ukázka toho, co to všechno umí. Tomáš skvěle, lidsky a poutavě přednášel, nachystané to měl na jedničku.
           - text: Školení bylo super nakopnutí abych se naučil PhpStorm používat efektivněji. Odnesl jsem si spoustu poznámek, které mám v plánu postupně zavést.
