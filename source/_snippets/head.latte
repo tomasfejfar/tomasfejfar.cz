@@ -61,5 +61,48 @@
             font-family: Arial;
             line-height: 135%;
         }
+        .crossed-out {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .crossed-out::before{
+            content: '';
+            border-bottom: 2px solid red;
+            width: 80%;
+            position: absolute;
+            right: 10%;
+            top: 50%;
+            -webkit-transform: skewY(-10deg);
+            transform: skewY(-10deg);
+        }
+        .quoted {
+            font-style: italic;
+            position: relative;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        .quoted::before {
+            content: '„';
+            font-size: 400%;
+            line-height: 25%;
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
+            color: rgba(136, 136, 136, .25);
+            position:absolute;
+            left: 0;
+            bottom: .5em;
+        }
+        .quoted::after {
+            content: '“';
+            font-size: 400%;
+            line-height: 25%;
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
+            color: rgba(136, 136, 136, .25);
+            position:absolute;
+            right: 0;
+            top: .25em;
+        }
     </style>
 </head>

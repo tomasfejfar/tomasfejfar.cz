@@ -33,6 +33,15 @@ title: "Školení PhpStormu - Tomáš Fejfar"
 <p>Prozatím není stanoven</p>
 {/if}
 
+<h2>Co o školení říkají účastníci?</h2>
+<ul class="list-unstyled">
+    <li n:foreach="$page['training']['phpstorm']['references'] as $reference">
+        <p class="quoted">{$reference['text']}</p>
+            <footer class="blockquote-footer" n:if="isset($reference['author'])">{$reference['author']}</footer>
+    </li>
+</ul>
+
+
 <h2 id="hard-data">Tvrdá data</h2>
 <p>PhpStorm ukládá informace o tom, jak často používáš kterou funkci. To je ideální k výpočtu reálného ušetřeného času. </p>
 <p>Když jsem začal používat PhpStorm, tak už jsem byl docela hodně efektivní v práci s textem, hledání souborů a používání klávesových zkratek. A i přesto mi PhpStorm šetří několik dnů práce za rok. A to uvádím jen ty věci, které jsou v měřených statistikách a které používám opravdu extrémně často. </p>
