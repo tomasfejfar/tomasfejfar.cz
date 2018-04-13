@@ -4,8 +4,8 @@ parameters:
     training:
       phpstorm:
         hasNext: true
-        date: 2018-04-27
-        loginForm: https://docs.google.com/forms/d/e/1FAIpQLSc9OLc2m2moBZJwsHIzSFWajs5VEGEfb-Zm7gE0kUQ0HGwn9Q/viewform?usp=sf_link
+        date: 2018-05-25
+        loginForm: https://goo.gl/forms/dcIMJJsLWtoAvRkg1
         references:
           - text: Vždycky jsem si myslel, že to, co dělám složitě, určitě PhpStorm umí udělat nějak jednodušeji. Dozvědel jsem se ale, že dělám složitě i věci, o kterých jsem si myslel, že je dělám jednoduše.
             author: Ondřej Popelka, Keboola
