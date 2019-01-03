@@ -4,13 +4,17 @@ parameters:
     training:
       phpstorm:
         hasNext: true
-        date: 2018-10-24
-        loginForm: https://goo.gl/forms/OYOtDkT6RyAX54yg2
+        date: 2019-02-06
+        loginForm: https://goo.gl/forms/L1Rt1lPQ9dw221od2
         references:
           - text: Vždycky jsem si myslel, že to, co dělám složitě, určitě PhpStorm umí udělat nějak jednodušeji. Dozvědel jsem se ale, že dělám složitě i věci, o kterých jsem si myslel, že je dělám jednoduše.
             author: Ondřej Popelka, Keboola
           - text: S PhpStormem jsem nikdy předtím nedělal a byla to super ukázka toho, co to všechno umí. Tomáš skvěle, lidsky a poutavě přednášel, nachystané to měl na jedničku.
             author: Michal Klabník
+          - text: Super školení, ze kterého jsem si odnesl nové poznatky, na které se těším, až vyzkouším. O dost možnostech PHPStormu jsem věděl, ale až když jsem viděl Tomáše, jak se dají v praxi použít, tak je opravdu začnu využívat na maximum. Doporučuji i pro zkušenější uživatele PHPStormu.
+            author: Jan Palacký
+          - text: Kurz byl odborný a zároveň se přizpůsobil každému a jeho rychlosti - hodnotím vše positivně.
+            author: Luděk Načev
           - text: Tomáš měl výborně připravenou strukturu a testovací projekt s tím, že dotazník před školením zajistil přípravu a na školení se to nemuselo řešit
             author: Josef Dohnal
           - text: Tomáš má odborné znalosti. Připravené to měl dobře. Vůbec jsem netušil, co vše phpstorm umí. Teď už si to jen zkoušet v praxi.
