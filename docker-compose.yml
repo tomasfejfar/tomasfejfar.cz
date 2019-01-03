@@ -1,0 +1,8 @@
+version: '2'
+services:
+  dev:
+    build: .
+    ports:
+      - 80:8000
+    volumes:
+      - .:/code/
