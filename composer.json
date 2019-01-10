@@ -1,6 +1,6 @@
 {
     "require": {
-        "symplify/statie": "^3.2"
+        "symplify/statie": "^5.3"
     },
     "scripts": {
         "generate": "statie generate source",
