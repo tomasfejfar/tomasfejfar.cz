@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: "_layouts/default.latte"
 title: "Školení PhpStormu - Tomáš Fejfar"
 ---
-{block content}
 
 <hr class="invisible">
 <h1 class="display-3">Ovládni PhpStorm</h1>
@@ -28,7 +27,7 @@ title: "Školení PhpStormu - Tomáš Fejfar"
 
 <h2 id="next-date">Příští termín</h2>
 {if $page['training']['phpstorm']['hasNext']}
-{include "phpstorm-next-date"}
+{include "_snippets/phpstorm-next-date.latte"}
 {else}
 <p>Prozatím není stanoven</p>
 {/if}
@@ -69,5 +68,3 @@ title: "Školení PhpStormu - Tomáš Fejfar"
 <div class="alert alert-danger">
    <h5>61 hodin, tedy {61/8|number:1:',':' '} pracovních dní!</h5>
 </div>
-
-{/block}
