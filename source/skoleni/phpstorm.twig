@@ -1,5 +1,5 @@
 ---
-layout: "_layouts/default.latte"
+layout: "_layouts/default.twig"
 title: "Školení PhpStormu - Tomáš Fejfar"
 ---
 
@@ -26,19 +26,23 @@ title: "Školení PhpStormu - Tomáš Fejfar"
 </ul>
 
 <h2 id="next-date">Příští termín</h2>
-{if $page['training']['phpstorm']['hasNext']}
-{include "_snippets/phpstorm-next-date.latte"}
-{else}
+{% if page.training.phpstorm.hasNext %}
+{% include "_snippets/phpstorm-next-date.twig" %}
+{% else %}
 <p>Prozatím není stanoven</p>
-{/if}
+{% endif %}
 
 <h2 id="reference">Co o školení říkají účastníci?</h2>
 <ul class="list-unstyled">
-    <li n:foreach="$page['training']['phpstorm']['references'] as $reference">
-        <p class="quoted">{$reference['text']}
-            <span class="blockquote-footer" n:if="isset($reference['author'])">{$reference['author']}</span>
+    {% for reference in page.training.phpstorm.references %}
+    <li>
+        <p class="quoted">{{ reference.text }}
+            {% if reference.author is defined %}
+            <span class="blockquote-footer">{{ reference.author }}</span>
+            {% endif %}
         </p>
     </li>
+    {% endfor %}
 </ul>
 
 
