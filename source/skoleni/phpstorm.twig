@@ -52,23 +52,23 @@ title: "Školení PhpStormu - Tomáš Fejfar"
 <h4>Moje statistiky</h4>
 <ul>
     <li>
-        <strong>Search Everywhere: </strong>Typicky mi ušetří přibližně 2s na jedno hledání. Použito {11874|number:0:',':' '}&times;. Ušetřilo to tedy
-        <strong>{11874*2/60/60|number:0:',':' '} hodin</strong>
+        <strong>Search Everywhere: </strong>Typicky mi ušetří přibližně 2s na jedno hledání. Použito {{ 11874|number_format(0, ',', ' ') }}&times;. Ušetřilo to tedy
+        <strong>{{ (11874*2/60/60)|number_format(0, ',', ' ') }} hodin</strong>
     </li>
     <li>
-        <strong>Syntax aware selection: </strong>Typicky mi ušetří odhadem 0.5s na jeden výběr. Použito {44026|number:0:',':' '}&times;. Ušetřilo to tedy
-        <strong>{44026*2/60/60|number:0:',':' '} hodin</strong>
+        <strong>Syntax aware selection: </strong>Typicky mi ušetří odhadem 0.5s na jeden výběr. Použito {{ 44026|number_format(0, ',', ' ') }}&times;. Ušetřilo to tedy
+        <strong>{{ (44026*2/60/60)|number_format(0, ',', ' ') }} hodin</strong>
     </li>
     <li>
-        <strong>Rename refactoring: </strong>Typicky mi ušetří přibližně 5s až 2 minuty podle složitosti - průměrně 15s. Použito {1366|number:0:',':' '}&times;. Ušetřilo to tedy
-        <strong>{1366*15/60/60|number:0:',':' '} hodin</strong>. A to nepočítám, že to může ušetřit hodinu hledání chyby způsobené zapomenutým přejmenováním.
+        <strong>Rename refactoring: </strong>Typicky mi ušetří přibližně 5s až 2 minuty podle složitosti - průměrně 15s. Použito {{ 1366|number_format(0, ',', ' ') }}&times;. Ušetřilo to tedy
+        <strong>{{ (1366*15/60/60)|number_format(0, ',', ' ') }} hodin</strong>. A to nepočítám, že to může ušetřit hodinu hledání chyby způsobené zapomenutým přejmenováním.
     </li>
     <li>
-        <strong>Recent files: </strong>Typicky mi ušetří přibližně 1 až 10 sekund oproti hledání v tabech - beru tedy 4s. Použito {21598|number:0:',':' '}&times;. Ušetřilo to tedy
-        <strong>{21598*4/60/60|number:0:',':' '} hodin</strong>
+        <strong>Recent files: </strong>Typicky mi ušetří přibližně 1 až 10 sekund oproti hledání v tabech - beru tedy 4s. Použito {{ 21598|number_format(0, ',', ' ') }}&times;. Ušetřilo to tedy
+        <strong>{{ (21598*4/60/60)|number_format(0, ',', ' ') }} hodin</strong>
     </li>
 </ul>
 <p>Celkově ušetřeno:</p>
 <div class="alert alert-danger">
-   <h5>61 hodin, tedy {61/8|number:1:',':' '} pracovních dní!</h5>
+    <h5>61 hodin, tedy {{ (61/8)|number_format(1, ',',' ') }} pracovních dní!</h5>
 </div>
