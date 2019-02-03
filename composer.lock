@@ -7,6 +7,50 @@
     "content-hash": "a074a03a1e5073420b03e99109ef8047",
     "packages": [
         {
+            "name": "composer/xdebug-handler",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/xdebug-handler.git",
+                "reference": "d17708133b6c276d6e42ef887a877866b909d892"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/d17708133b6c276d6e42ef887a877866b909d892",
+                "reference": "d17708133b6c276d6e42ef887a877866b909d892",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.2 || ^7.0",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\XdebugHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Stevenson",
+                    "email": "john-stevenson@blueyonder.co.uk"
+                }
+            ],
+            "description": "Restarts a process without xdebug.",
+            "keywords": [
+                "Xdebug",
+                "performance"
+            ],
+            "time": "2019-01-28T20:25:53+00:00"
+        },
+        {
             "name": "erusev/parsedown",
             "version": "1.7.1",
             "source": {
@@ -1644,16 +1688,16 @@
         },
         {
             "name": "symplify/package-builder",
-            "version": "v5.3.9",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Symplify/PackageBuilder.git",
-                "reference": "573e4d0d0be5d7fd3e3a5f0b72b47ce7ea81ede9"
+                "reference": "d52c2833e0befff1a7970c7b8fb09ecccf164f61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Symplify/PackageBuilder/zipball/573e4d0d0be5d7fd3e3a5f0b72b47ce7ea81ede9",
-                "reference": "573e4d0d0be5d7fd3e3a5f0b72b47ce7ea81ede9",
+                "url": "https://api.github.com/repos/Symplify/PackageBuilder/zipball/d52c2833e0befff1a7970c7b8fb09ecccf164f61",
+                "reference": "d52c2833e0befff1a7970c7b8fb09ecccf164f61",
                 "shasum": ""
             },
             "require": {
@@ -1666,8 +1710,7 @@
                 "symfony/dependency-injection": "^3.4|^4.1",
                 "symfony/finder": "^3.4|^4.1",
                 "symfony/http-kernel": "^3.4|^4.1",
-                "symfony/yaml": "^3.4|^4.1",
-                "thecodingmachine/safe": "^0.1.11"
+                "symfony/yaml": "^3.4|^4.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.5"
@@ -1675,7 +1718,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.4-dev"
+                    "dev-master": "5.5-dev"
                 }
             },
             "autoload": {
@@ -1688,23 +1731,24 @@
                 "MIT"
             ],
             "description": "Dependency Injection, Console and Kernel toolkit for Symplify packages.",
-            "time": "2019-01-11T10:33:05+00:00"
+            "time": "2019-02-02T11:52:47+00:00"
         },
         {
             "name": "symplify/statie",
-            "version": "v5.3.9",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Symplify/Statie.git",
-                "reference": "7242bdd55378652e47aa06169c7ef173d99ddd9d"
+                "reference": "8c160b9b6a38c1fb4c5e5dd5208b55726f730c89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Symplify/Statie/zipball/7242bdd55378652e47aa06169c7ef173d99ddd9d",
-                "reference": "7242bdd55378652e47aa06169c7ef173d99ddd9d",
+                "url": "https://api.github.com/repos/Symplify/Statie/zipball/8c160b9b6a38c1fb4c5e5dd5208b55726f730c89",
+                "reference": "8c160b9b6a38c1fb4c5e5dd5208b55726f730c89",
                 "shasum": ""
             },
             "require": {
+                "composer/xdebug-handler": "^1.3",
                 "erusev/parsedown": "^1.7",
                 "erusev/parsedown-extra": "^0.7.1",
                 "guzzlehttp/guzzle": "^6.3",
@@ -1722,8 +1766,7 @@
                 "symfony/finder": "^3.4|^4.1",
                 "symfony/http-kernel": "^3.4|^4.1",
                 "symfony/yaml": "^3.4|^4.1",
-                "symplify/package-builder": "^5.3.9",
-                "thecodingmachine/safe": "^0.1.11",
+                "symplify/package-builder": "^5.4.2",
                 "tracy/tracy": "^2.5",
                 "twig/twig": "^2.5"
             },
@@ -1736,7 +1779,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.4-dev"
+                    "dev-master": "5.5-dev"
                 }
             },
             "autoload": {
@@ -1745,9 +1788,13 @@
                     "Symplify\\Statie\\Latte\\": "packages/Latte/src",
                     "Symplify\\Statie\\Generator\\": "packages/Generator/src",
                     "Symplify\\Statie\\Twig\\": "packages/Twig/src",
+                    "Symplify\\Statie\\MigratorJekyll\\": "packages/MigratorJekyll/src",
+                    "Symplify\\Statie\\MigratorSculpin\\": "packages/MigratorSculpin/src",
+                    "Symplify\\Statie\\Migrator\\": "packages/Migrator/src",
+                    "Symplify\\Statie\\JoindIn\\": "packages/JoindIn/src",
                     "Symplify\\Statie\\Tweeter\\": "packages/Tweeter/src",
                     "Symplify\\Statie\\GithubContributorsThanker\\": "packages/GithubContributorsThanker/src",
-                    "Symplify\\Statie\\PostHeadlineLinker\\": "packages/PostHeadlineLinker/src"
+                    "Symplify\\Statie\\HeadlineAnchorLinker\\": "packages/HeadlineAnchorLinker/src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1755,139 +1802,7 @@
                 "MIT"
             ],
             "description": "Static Site Generator",
-            "time": "2019-01-11T10:41:11+00:00"
-        },
-        {
-            "name": "thecodingmachine/safe",
-            "version": "v0.1.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "5687cf3c45ac76014cf0d3423846b219aee1429c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/5687cf3c45ac76014cf0d3423846b219aee1429c",
-                "reference": "5687cf3c45ac76014cf0d3423846b219aee1429c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "^0.10.3",
-                "squizlabs/php_codesniffer": "^3.2",
-                "thecodingmachine/phpstan-strict-rules": "^0.10.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.1-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Safe\\": [
-                        "lib/",
-                        "generated/"
-                    ]
-                },
-                "files": [
-                    "generated/apache.php",
-                    "generated/apc.php",
-                    "generated/apcu.php",
-                    "generated/array.php",
-                    "generated/bzip2.php",
-                    "generated/classobj.php",
-                    "generated/com.php",
-                    "generated/cubrid.php",
-                    "generated/curl.php",
-                    "generated/datetime.php",
-                    "generated/dir.php",
-                    "generated/eio.php",
-                    "generated/errorfunc.php",
-                    "generated/exec.php",
-                    "generated/fileinfo.php",
-                    "generated/filesystem.php",
-                    "generated/filter.php",
-                    "generated/fpm.php",
-                    "generated/ftp.php",
-                    "generated/funchand.php",
-                    "generated/gmp.php",
-                    "generated/gnupg.php",
-                    "generated/hash.php",
-                    "generated/ibase.php",
-                    "generated/ibmDb2.php",
-                    "generated/iconv.php",
-                    "generated/image.php",
-                    "generated/imap.php",
-                    "generated/info.php",
-                    "generated/ingres-ii.php",
-                    "generated/inotify.php",
-                    "generated/json.php",
-                    "generated/ldap.php",
-                    "generated/libevent.php",
-                    "generated/libxml.php",
-                    "generated/lzf.php",
-                    "generated/mailparse.php",
-                    "generated/mbstring.php",
-                    "generated/misc.php",
-                    "generated/msql.php",
-                    "generated/mssql.php",
-                    "generated/mysql.php",
-                    "generated/mysqli.php",
-                    "generated/mysqlndMs.php",
-                    "generated/mysqlndQc.php",
-                    "generated/network.php",
-                    "generated/oci8.php",
-                    "generated/opcache.php",
-                    "generated/openssl.php",
-                    "generated/outcontrol.php",
-                    "generated/password.php",
-                    "generated/pcntl.php",
-                    "generated/pcre.php",
-                    "generated/pdf.php",
-                    "generated/pgsql.php",
-                    "generated/posix.php",
-                    "generated/ps.php",
-                    "generated/pspell.php",
-                    "generated/readline.php",
-                    "generated/rrd.php",
-                    "generated/sem.php",
-                    "generated/session.php",
-                    "generated/shmop.php",
-                    "generated/simplexml.php",
-                    "generated/sockets.php",
-                    "generated/sodium.php",
-                    "generated/solr.php",
-                    "generated/spl.php",
-                    "generated/sqlsrv.php",
-                    "generated/ssdeep.php",
-                    "generated/ssh2.php",
-                    "generated/stats.php",
-                    "generated/stream.php",
-                    "generated/strings.php",
-                    "generated/swoole.php",
-                    "generated/uodbc.php",
-                    "generated/uopz.php",
-                    "generated/url.php",
-                    "generated/var.php",
-                    "generated/xdiff.php",
-                    "generated/xml.php",
-                    "generated/xmlrpc.php",
-                    "generated/yaml.php",
-                    "generated/yaz.php",
-                    "generated/zip.php",
-                    "generated/zlib.php",
-                    "lib/special_cases.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
-            "time": "2019-01-11T09:03:26+00:00"
+            "time": "2019-02-02T12:27:31+00:00"
         },
         {
             "name": "tracy/tracy",
@@ -1957,16 +1872,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.6.0",
+            "version": "v2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "a11dd39f5b6589e14f0ff3b36675d06047c589b1"
+                "reference": "7d7342c8a4059fefb9b8d07db0cc14007021f9b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a11dd39f5b6589e14f0ff3b36675d06047c589b1",
-                "reference": "a11dd39f5b6589e14f0ff3b36675d06047c589b1",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7d7342c8a4059fefb9b8d07db0cc14007021f9b7",
+                "reference": "7d7342c8a4059fefb9b8d07db0cc14007021f9b7",
                 "shasum": ""
             },
             "require": {
@@ -2020,7 +1935,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2018-12-16T10:36:48+00:00"
+            "time": "2019-01-14T15:00:48+00:00"
         }
     ],
     "packages-dev": [],
