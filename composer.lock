@@ -1644,16 +1644,16 @@
         },
         {
             "name": "symplify/package-builder",
-            "version": "v5.3.7",
+            "version": "v5.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Symplify/PackageBuilder.git",
-                "reference": "ec4c7395813a958a9096ad263f76a7bba489c2ff"
+                "reference": "573e4d0d0be5d7fd3e3a5f0b72b47ce7ea81ede9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Symplify/PackageBuilder/zipball/ec4c7395813a958a9096ad263f76a7bba489c2ff",
-                "reference": "ec4c7395813a958a9096ad263f76a7bba489c2ff",
+                "url": "https://api.github.com/repos/Symplify/PackageBuilder/zipball/573e4d0d0be5d7fd3e3a5f0b72b47ce7ea81ede9",
+                "reference": "573e4d0d0be5d7fd3e3a5f0b72b47ce7ea81ede9",
                 "shasum": ""
             },
             "require": {
@@ -1667,7 +1667,7 @@
                 "symfony/finder": "^3.4|^4.1",
                 "symfony/http-kernel": "^3.4|^4.1",
                 "symfony/yaml": "^3.4|^4.1",
-                "thecodingmachine/safe": "^0.1.9"
+                "thecodingmachine/safe": "^0.1.11"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.5"
@@ -1688,20 +1688,20 @@
                 "MIT"
             ],
             "description": "Dependency Injection, Console and Kernel toolkit for Symplify packages.",
-            "time": "2019-01-06T17:38:17+00:00"
+            "time": "2019-01-11T10:33:05+00:00"
         },
         {
             "name": "symplify/statie",
-            "version": "v5.3.7",
+            "version": "v5.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Symplify/Statie.git",
-                "reference": "58a0803b8587fbc508cc145bd7df5b9642e8dbb9"
+                "reference": "7242bdd55378652e47aa06169c7ef173d99ddd9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Symplify/Statie/zipball/58a0803b8587fbc508cc145bd7df5b9642e8dbb9",
-                "reference": "58a0803b8587fbc508cc145bd7df5b9642e8dbb9",
+                "url": "https://api.github.com/repos/Symplify/Statie/zipball/7242bdd55378652e47aa06169c7ef173d99ddd9d",
+                "reference": "7242bdd55378652e47aa06169c7ef173d99ddd9d",
                 "shasum": ""
             },
             "require": {
@@ -1722,8 +1722,8 @@
                 "symfony/finder": "^3.4|^4.1",
                 "symfony/http-kernel": "^3.4|^4.1",
                 "symfony/yaml": "^3.4|^4.1",
-                "symplify/package-builder": "^5.3.7",
-                "thecodingmachine/safe": "^0.1.9",
+                "symplify/package-builder": "^5.3.9",
+                "thecodingmachine/safe": "^0.1.11",
                 "tracy/tracy": "^2.5",
                 "twig/twig": "^2.5"
             },
@@ -1755,20 +1755,20 @@
                 "MIT"
             ],
             "description": "Static Site Generator",
-            "time": "2019-01-10T18:27:20+00:00"
+            "time": "2019-01-11T10:41:11+00:00"
         },
         {
             "name": "thecodingmachine/safe",
-            "version": "v0.1.10",
+            "version": "v0.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/safe.git",
-                "reference": "39801923505dc64e96f639dbb544f85655c86038"
+                "reference": "5687cf3c45ac76014cf0d3423846b219aee1429c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/39801923505dc64e96f639dbb544f85655c86038",
-                "reference": "39801923505dc64e96f639dbb544f85655c86038",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/5687cf3c45ac76014cf0d3423846b219aee1429c",
+                "reference": "5687cf3c45ac76014cf0d3423846b219aee1429c",
                 "shasum": ""
             },
             "require": {
@@ -1887,7 +1887,7 @@
                 "MIT"
             ],
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
-            "time": "2019-01-10T13:46:00+00:00"
+            "time": "2019-01-11T09:03:26+00:00"
         },
         {
             "name": "tracy/tracy",

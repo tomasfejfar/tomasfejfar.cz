@@ -1,5 +1,5 @@
 <div class="card">
-    <h5 class="card-header bg-success text-white">{$page['training']['phpstorm']['date']|date:'j. n. Y'} od 13 hodin</h5>
+    <h5 class="card-header bg-success text-white">{{ page.training.phpstorm.date|date('j. n. Y') }} od 13 hodin</h5>
     <div class="card-body">
         <h5 class="card-title">První školení v novém roce v Praze</h5>
         <dl>
@@ -19,7 +19,7 @@
 
     </div>
     <div class="card-footer">
-        <a href="{$page['training']['phpstorm']['loginForm']}" class="btn btn-primary btn-lg">Chci se přihlásit!</a>
+        <a href="{{ page.training.phpstorm.loginForm }}" class="btn btn-primary btn-lg">Chci se přihlásit!</a>
     </div>
 </div>
 <br>
