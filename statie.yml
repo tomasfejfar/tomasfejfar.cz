@@ -3,7 +3,7 @@ parameters:
     title: Tomáš Fejfar, PHP vývojář a lektor webového vývoje
     training:
       phpstorm:
-        hasNext: true
+        hasNext: false
         date: 2019-02-06
         loginForm: https://goo.gl/forms/L1Rt1lPQ9dw221od2
         references:
