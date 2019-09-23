@@ -4,7 +4,7 @@ parameters:
     training:
       phpstorm:
         hasNext: true
-        date: 2019-06-20
+        date: 2019-09-24
         loginForm: https://pehapkari.cz/kurz/ovladni-php-storm-od-zakladu-po-profi-tipy
         references:
           - text: Vždycky jsem si myslel, že to, co dělám složitě, určitě PhpStorm umí udělat nějak jednodušeji. Dozvědel jsem se ale, že dělám složitě i věci, o kterých jsem si myslel, že je dělám jednoduše.
