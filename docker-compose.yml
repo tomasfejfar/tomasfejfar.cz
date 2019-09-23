@@ -1,6 +1,7 @@
 version: '2'
 services:
   dev:
+    container_name: tomasfejfar.github.io
     build: .
     ports:
       - 80:8000
