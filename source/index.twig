@@ -58,7 +58,7 @@ title: "Tomáš Fejfar, PHP vývojář a lektor webového vývoje"
             <div class="card-body">
                 <h4 class="card-title">Ovládni PhpStorm</h4>
                 <h6 class="card-subtitle mb-2 text-muted">od základů po profi tipy</h6>
-                {% if page.training.phpstorm.hasNext %}
+                {% if page.training.phpstorm.date|date('Y-m-d') > 'now'|date('Y-m-d') %}
                 <div class="alert alert-info clearfix">
                     <p><a href="/skoleni/phpstorm/#next-date" class="btn btn-info p-1 float-right">Chci se přihlásit</a>
                     <strong>Příští školení proběhne {{ page.training.phpstorm.date|date('j. n. Y') }}</strong></p>

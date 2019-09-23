@@ -26,7 +26,7 @@ title: "Školení PhpStormu - Tomáš Fejfar"
 </ul>
 
 <h2 id="next-date">Příští termín</h2>
-{% if page.training.phpstorm.hasNext %}
+{% if page.training.phpstorm.date|date('Y-m-d') > 'now'|date('Y-m-d') %}
 {% include "_snippets/phpstorm-next-date.twig" %}
 {% else %}
 <p>Prozatím není stanoven</p>
