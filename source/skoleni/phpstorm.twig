@@ -29,17 +29,13 @@ title: "Školení PhpStormu - Tomáš Fejfar"
 {% if page.training.phpstorm.date|date('Y-m-d') > 'now'|date('Y-m-d') %}
 {% include "_snippets/phpstorm-next-date.twig" %}
 {% else %}
-    <form
-            action="https://tinyletter.com/tomasfejfar"
-            method="post"
-            onsubmit="window.open('https://tinyletter.com/tomasfejfar', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-            target="popupwindow"
-    >
-        <p>
-            <label for="tlemail">Prozatím není stanoven, ale můžete mi tu nechat email a já se vám ozvu jakmile bude nějaký vypsaný. </label><br>
-            <input type="text" placeholder="email@server.com" name="email" id="tlemail" /><input type="hidden" value="1" name="embed" /><input type="submit" value="Odeslat" /><br>
-            <small>(powered by <a href="https://tinyletter.com" target="_blank">TinyLetter</a>)</small>
-        </p>
+    <form action="https://tomasfejfar.us12.list-manage.com/subscribe/post?u=510539768a0ab657b8836e7de&amp;id=40a64bf1db" method="post" target="_blank" novalidate>
+            <label for="mce-EMAIL">Prozatím není stanoven, ale můžete mi tu nechat email a já se vám ozvu jakmile bude nějaký vypsaný. </label>
+            <br>
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="email address" required>
+            <input type="submit" value="Odeslat" name="subscribe" id="mc-embedded-subscribe" class="button">
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_510539768a0ab657b8836e7de_40a64bf1db" tabindex="-1" value=""></div>
     </form>
 
 {% endif %}
