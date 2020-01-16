@@ -29,7 +29,19 @@ title: "Školení PhpStormu - Tomáš Fejfar"
 {% if page.training.phpstorm.date|date('Y-m-d') > 'now'|date('Y-m-d') %}
 {% include "_snippets/phpstorm-next-date.twig" %}
 {% else %}
-<p>Prozatím není stanoven</p>
+    <form
+            action="https://tinyletter.com/tomasfejfar"
+            method="post"
+            onsubmit="window.open('https://tinyletter.com/tomasfejfar', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+            target="popupwindow"
+    >
+        <p>
+            <label for="tlemail">Prozatím není stanoven, ale můžete mi tu nechat email a já se vám ozvu jakmile bude nějaký vypsaný. </label><br>
+            <input type="text" placeholder="email@server.com" name="email" id="tlemail" /><input type="hidden" value="1" name="embed" /><input type="submit" value="Odeslat" /><br>
+            <small>(powered by <a href="https://tinyletter.com" target="_blank">TinyLetter</a>)</small>
+        </p>
+    </form>
+
 {% endif %}
 
 <h2 id="reference">Co o školení říkají účastníci?</h2>
