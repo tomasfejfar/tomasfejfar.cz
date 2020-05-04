@@ -56,19 +56,39 @@ title: "Tomáš Fejfar, PHP vývojář a lektor webového vývoje"
     <div class="col-lg-6">
         <div class="card ">
             <div class="card-body">
+                <img src="images/git.">
+                <h4 class="card-title">Git pro lehce pokročilé</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Všechno, co ti chybělo k tomu, abys dokázal Git používat bez problémů</h6>
+                {% if page.training.git.date|date('Y-m-d') > 'now'|date('Y-m-d') %}
+                    <div class="alert alert-info clearfix">
+                        <p><a href="/skoleni/git/#next-date" class="btn btn-info p-1 float-right">Chci se přihlásit</a>
+                            <strong>Příští školení proběhne {{ page.training.git.date|date('j. n. Y') }}</strong></p>
+                    </div>
+                {% endif %}
+                <p class="card-text">Podle průzkumu Gitlabu je pro 40% vývojářů největší překážkou pro naučení Gitu složitost. Podle mého průzkumu mezi českými vývojáři se většina z nich považuje za začátečníky nebo lehce pokročilé. Během kurzu zjistíte, že abyste byli expertem stačí pochopení několika zákonitostí a naučených postupů. Po něm vás již nezaskočí časté problémy s rebasováním, konflikty a pokud už se dostanete do nějaké šlamastiky, tak budete vědět, jak z ní ven. </p>
+                <a href="/skoleni/git/" class="card-link btn btn-primary">Informace a&nbsp;přihlášení</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card ">
+            <div class="card-body">
                 <h4 class="card-title">Ovládni PhpStorm</h4>
                 <h6 class="card-subtitle mb-2 text-muted">od základů po profi tipy</h6>
                 {% if page.training.phpstorm.date|date('Y-m-d') > 'now'|date('Y-m-d') %}
-                <div class="alert alert-info clearfix">
-                    <p><a href="/skoleni/phpstorm/#next-date" class="btn btn-info p-1 float-right">Chci se přihlásit</a>
-                    <strong>Příští školení proběhne {{ page.training.phpstorm.date|date('j. n. Y') }}</strong></p>
-                </div>
+                    <div class="alert alert-info clearfix">
+                        <p>
+                            <a href="/skoleni/phpstorm/#next-date" class="btn btn-info p-1 float-right">Chci se přihlásit</a>
+                            <strong>Příští školení proběhne {{ page.training.phpstorm.date|date('j. n. Y') }}</strong>
+                        </p>
+                    </div>
                 {% endif %}
                 <p class="card-text">Pro nás vývojáře je IDE hlavní pracovní nástroj, a&nbsp;proto se vyplatí ho perfektně znát. Na workshopu se naučíte využívat možnosti, které PhpStorm nabízí, a&nbsp;společně si všechno vyzkoušíme. S&nbsp;nově získanými znalostmi vám půjde práce od ruky a&nbsp;vyhnete se i častým chybám z&nbsp;nepozornosti.</p>
                 <a href="/skoleni/phpstorm/" class="card-link btn btn-primary">Informace a&nbsp;přihlášení</a>
             </div>
         </div>
     </div>
+
 </div>
 <h2 id="firemni">Firemní školení, workshopy a&nbsp;konzultace</h2>
 

@@ -2,6 +2,8 @@ parameters:
   page:
     title: Tomáš Fejfar, PHP vývojář a lektor webového vývoje
     training:
+      git:
+        date: 2019-06-01
       phpstorm:
         hasNext: true
         date: 2019-09-24
