@@ -20,7 +20,7 @@ gulp.task('default', function () {
     });
 
     // For the second arg see: https://github.com/floatdrop/gulp-watch/issues/242#issuecomment-230209702
-    return watch(['source/**/*', '!**/*___jb_tmp___'], function () {
+    return watch(['source/**/*', 'statie.yml', '!**/*___jb_tmp___'], function () {
         log.info('Regenerating...');
         exec('vendor/bin/statie generate source', function (err, stdout, stderr) {
             stdout ? log.info(stdout.trim()) : null;
