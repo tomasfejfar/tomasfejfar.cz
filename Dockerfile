@@ -14,20 +14,7 @@ RUN apt-get update -q \
         gnupg \
     && apt-get clean
 
-RUN curl -sL https://deb.nodesource.com/setup_11.x | bash -
-
-RUN apt-get update -q \
-    && apt-get install -y --no-install-recommends \
-        nodejs \
-    && apt-get clean
-
 WORKDIR /code/
-
-COPY package*.json /code/
-
-RUN npm install \
-    && npm install gulp-cli -g \
-    && npm install natives
 
 RUN curl --silent --show-error https://getcomposer.org/installer | php -- --quiet \
     && mv composer.phar /usr/local/bin/composer \
@@ -42,4 +29,4 @@ RUN composer install $COMPOSER_FLAGS
 
 EXPOSE 8000
 
-CMD ["gulp"]
+CMD ["php", "-S", "0.0.0.0:8000", "-t", "output"]
