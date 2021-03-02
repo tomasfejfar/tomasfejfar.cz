@@ -16,7 +16,7 @@ RUN apt-get update -q \
 
 WORKDIR /code/
 
-RUN curl --silent --show-error https://getcomposer.org/installer | php -- --quiet \
+RUN curl --silent --show-error https://getcomposer.org/installer | php -- --1 --quiet \
     && mv composer.phar /usr/local/bin/composer \
     && composer global require hirak/prestissimo
 
