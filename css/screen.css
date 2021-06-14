@@ -1,0 +1,131 @@
+body {
+    font: 16px/1.5 "trebuchet MS", "Helvetica", sans-serif;
+    color: #898989;
+    background-color: #fff;
+    line-height: 165%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Georgia", serif;
+}
+
+h1 {
+    margin: 30px 5px;
+    font-size: 250%;
+    color: #000;
+}
+
+div#header p.slogan {
+    font-family: "Georgia", serif;
+    font-size: 170%;
+    font-style: italic;
+    color: #929292;
+    font-style: italic
+}
+
+h2 {
+    font-size: 150%;
+    font-family: "Myriad Pro", "Trebuchet MS", Verdana, Helvetica, Arial,
+        sans-serif;
+    color: #000;
+    margin: 20px 0 10px 0;
+}
+
+h3 {
+    font-size: 120%;
+    font-family: "Myriad Pro", "Trebuchet MS", Verdana, Helvetica, Arial,
+        sans-serif;
+    color: #000;
+    margin: 20px 0 10px 0;
+}
+
+h3 span {
+    font-size: 50%;
+    padding-left: 5px;
+}
+
+dt {
+    font-weight: bold;
+    color: #787878;
+}
+
+dd {
+    margin: 0 10px;
+    padding: 0;
+}
+
+a:hover {
+    border: none;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid #929292;
+    color: #000;
+}
+
+strong {
+    color: #929292;
+}
+
+p {
+    font-family: "Trebuchet MS";
+}
+
+code {
+    background: #f2f2f2;
+    padding: 1px 3px;
+}
+
+li {
+    margin: 0 0 0 10px;
+}
+
+#reference p {
+    margin-left: -10px;
+}
+
+#reference p a {
+    color: #898989;
+    font-weight: bold;
+}
+
+abbr {
+    border-bottom: dashed 1px;
+}
+
+#header {
+    background: url('/images/bonsai.png') no-repeat right; min-height: 128px; padding-right: 144px
+}
+
+#footer {
+    border-top: 1px solid #eee;
+    font-size: 80%;
+    color: #929292;
+    line-height: 80px;
+    background: url('/images/tea.png') no-repeat right; min-height: 64px; padding-right: 80px
+}
+
+.reference {
+    
+}
+
+/* custom */
+
+.skoleni ul {
+    margin: .25em 0;
+    padding: 0 0 0 1em;
+}
+
+.skoleni ul li {
+    list-style-type: disc;
+}
+
+.skoleni p {
+    margin: 0;
+}
+
+.skoleni p+p {
+    margin: 0 0 20px 0;
+}

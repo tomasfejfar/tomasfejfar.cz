@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="cs">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Organizuji školení gitu, školení PhpStormu a konzultace efektivního vývoje v týmu. Zabývám se také zakázkovým vývojem v PHP. Můžu pracovat jak samostatně, tak v týmu dalších freelancerů nebo jako součást vašeho interního týmu. ">
+    <title>
+        Školení PhpStormu - Tomáš Fejfar
+    </title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        html, body {
+            scroll-behavior: smooth;
+        }
+
+        .highlight {
+            background: #ffcd00;
+            color: #212529;
+        }
+
+        .jumbotron {
+            background-color: #f2f5f7;
+        }
+
+        .pehapkari-svg {
+            vertical-align: bottom;
+
+        }
+
+        .lead {
+            font-weight: 400;
+        }
+
+        .jumbotron h1 {
+            font-weight: 400;
+        }
+
+        .reference .media-body p {
+            font-style: italic;
+        }
+        .favicon-img {
+            margin: 3px 0 2px;
+            vertical-align: text-bottom;
+        }
+        .nav-link {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .navbar-brand {
+            font-size: 150%;
+        }
+
+        h2 {
+            position: relative;
+        }
+        h2:target::before {
+            content: ' ▶ ';
+            color: #f00;
+            font-weight: bold;
+            position: absolute;
+            left: -1em;
+            font-family: Arial;
+            line-height: 135%;
+        }
+        .crossed-out {
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .crossed-out::before{
+            content: '';
+            border-bottom: 2px solid red;
+            width: 80%;
+            position: absolute;
+            right: 10%;
+            top: 50%;
+            -webkit-transform: skewY(-10deg);
+            transform: skewY(-10deg);
+        }
+        .quoted {
+            font-style: italic;
+            position: relative;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        .quoted::before {
+            content: '„';
+            font-size: 400%;
+            line-height: 25%;
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
+            color: rgba(136, 136, 136, .25);
+            position:absolute;
+            left: 0;
+            bottom: .5em;
+        }
+        .quoted::after {
+            content: '“';
+            font-size: 400%;
+            line-height: 25%;
+            font-family: "Times New Roman", serif;
+            font-weight: bold;
+            color: rgba(136, 136, 136, .25);
+            position:absolute;
+            right: 0;
+            top: .25em;
+        }
+    </style>
+</head>
+<body>
+<a id="top"></a>
+<header class="navbar navbar-expand-lg navbar-light bg-warning">
+    <a class="navbar-brand" href="/">Tomáš Fejfar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav-scroll">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/#skoleni">Veřejná školení</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#firemni">Firemní konzultace</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#oMne">O mně</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/#reference">Reference</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <hr class="invisible">
+<h1 class="display-3">Ovládni PhpStorm</h1>
+<p class="lead">Workshop, který ti ušetří spoustu času.</p>
+<p class="lead">Představ si, že dokážeš ušetřit jednu sekundu na věci, kterou děláš 100&times; denně.
+    <br> To je 1 minuta 33 sekund za den. <br> To je 33 minut za měsíc. <br>
+    <strong>Za rok to je jeden pracovní den.</strong> <br> Nevěříš? Podívej se na
+    <a href="#hard-data">tvrdá data</a>!
+</p>
+<p><a class="btn btn-primary" href="#next-date">Příští termín →</a></p>
+<h2>Co se na workshopu naučíš?</h2>
+<p>Na workshopu se naučíš využívat možnosti, které PhpStorm nabízí, a společně si všechno vyzkoušíme. S nově získanými znalostmi ti půjde práce od ruky a vyhneš se i častým chybám z nepozornosti.</p>
+<ul>
+    <li>Jak <strong>efektivně pracovat s&nbsp;kódem</strong> a&nbsp;najít to, co potřebuješ
+    </li>
+    <li>Jak využívat <strong>automatické refaktoringy</strong> a&nbsp;na co si u nich dát pozor
+    </li>
+    <li>Jak si ušetřit psaní pomocí předpřipravených templatů a&nbsp;formátování</li>
+    <li>Jak integrovat <strong>externí nástroje</strong> s&nbsp;PhpStormem</li>
+    <li>Jak v&nbsp;PhpStormu testovat</li>
+    <li><strong>Nastavení na míru</strong> tvému projektu</li>
+</ul>
+
+<h2 id="next-date">Příští termín</h2>
+    <p>Prozatím není stanoven. <a href="http://eepurl.com/gP4YvT">Nechte si poslat email jakmile bude nějaký vypsaný.</a></p>
+
+<h2 id="reference">Co o školení říkají účastníci?</h2>
+<ul class="list-unstyled">
+        <li>
+        <p class="quoted">Vždycky jsem si myslel, že to, co dělám složitě, určitě PhpStorm umí udělat nějak jednodušeji. Dozvědel jsem se ale, že dělám složitě i věci, o kterých jsem si myslel, že je dělám jednoduše.
+                        <span class="blockquote-footer">Ondřej Popelka, Keboola</span>
+                    </p>
+    </li>
+        <li>
+        <p class="quoted">S PhpStormem jsem nikdy předtím nedělal a byla to super ukázka toho, co to všechno umí. Tomáš skvěle, lidsky a poutavě přednášel, nachystané to měl na jedničku.
+                        <span class="blockquote-footer">Michal Klabník</span>
+                    </p>
+    </li>
+        <li>
+        <p class="quoted">Super školení, ze kterého jsem si odnesl nové poznatky, na které se těším, až vyzkouším. O dost možnostech PHPStormu jsem věděl, ale až když jsem viděl Tomáše, jak se dají v praxi použít, tak je opravdu začnu využívat na maximum. Doporučuji i pro zkušenější uživatele PHPStormu.
+                        <span class="blockquote-footer">Jan Palacký</span>
+                    </p>
+    </li>
+        <li>
+        <p class="quoted">Kurz byl odborný a zároveň se přizpůsobil každému a jeho rychlosti - hodnotím vše positivně.
+                        <span class="blockquote-footer">Luděk Načev</span>
+                    </p>
+    </li>
+        <li>
+        <p class="quoted">Tomáš měl výborně připravenou strukturu a testovací projekt s tím, že dotazník před školením zajistil přípravu a na školení se to nemuselo řešit
+                        <span class="blockquote-footer">Josef Dohnal</span>
+                    </p>
+    </li>
+        <li>
+        <p class="quoted">Tomáš má odborné znalosti. Připravené to měl dobře. Vůbec jsem netušil, co vše phpstorm umí. Teď už si to jen zkoušet v praxi.
+                        <span class="blockquote-footer">Filip Dvořák</span>
+                    </p>
+    </li>
+        <li>
+        <p class="quoted">Školení bylo super nakopnutí abych se naučil PhpStorm používat efektivněji. Odnesl jsem si spoustu poznámek, které mám v plánu postupně zavést.
+                    </p>
+    </li>
+    </ul>
+
+
+<h2 id="hard-data">Tvrdá data</h2>
+<p>PhpStorm ukládá informace o tom, jak často používáš kterou funkci. To je ideální k výpočtu reálného ušetřeného času. </p>
+<p>Když jsem začal používat PhpStorm, tak už jsem byl docela hodně efektivní v práci s textem, hledání souborů a používání klávesových zkratek. A i přesto mi PhpStorm šetří několik dnů práce za rok. A to uvádím jen ty věci, které jsou v měřených statistikách a které používám opravdu extrémně často. </p>
+<h4>Moje statistiky</h4>
+<ul>
+    <li>
+        <strong>Search Everywhere: </strong>Typicky mi ušetří přibližně 2s na jedno hledání. Použito 11 874&times;. Ušetřilo to tedy
+        <strong>7 hodin</strong>
+    </li>
+    <li>
+        <strong>Syntax aware selection: </strong>Typicky mi ušetří odhadem 0.5s na jeden výběr. Použito 44 026&times;. Ušetřilo to tedy
+        <strong>24 hodin</strong>
+    </li>
+    <li>
+        <strong>Rename refactoring: </strong>Typicky mi ušetří přibližně 5s až 2 minuty podle složitosti - průměrně 15s. Použito 1 366&times;. Ušetřilo to tedy
+        <strong>6 hodin</strong>. A to nepočítám, že to může ušetřit hodinu hledání chyby způsobené zapomenutým přejmenováním.
+    </li>
+    <li>
+        <strong>Recent files: </strong>Typicky mi ušetří přibližně 1 až 10 sekund oproti hledání v tabech - beru tedy 4s. Použito 21 598&times;. Ušetřilo to tedy
+        <strong>24 hodin</strong>
+    </li>
+</ul>
+<p>Celkově ušetřeno:</p>
+<div class="alert alert-danger">
+    <h5>61 hodin, tedy 7,6 pracovních dní!</h5>
+</div></div>
+<footer class="footer">
+    <div class="container">
+        <p class="text-center"><a href="#top" class="btn btn-light btn-lg">Zpátky nahoru!</a></p>
+    </div>
+</footer>
+<script src="js/jquery-3.2.1.slim.min.js?v=1"></script>
+<script src="js/popper.min.js?v=1"></script>
+<script src="js/bootstrap.min.js?v=1"></script>
+</body>
+</html>
