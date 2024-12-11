@@ -6,7 +6,7 @@ ENV COMPOSER_PROCESS_TIMEOUT 3600
 
 RUN apt-get update -q \
         && apt-get install -y gnupg
-RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get update -q \
     && apt-get install -y --no-install-recommends \
         git \
@@ -16,9 +16,8 @@ RUN apt-get update -q \
 
 WORKDIR /code/
 
-RUN curl --silent --show-error https://getcomposer.org/installer | php -- --1 --quiet \
-    && mv composer.phar /usr/local/bin/composer \
-    && composer global require hirak/prestissimo
+RUN curl --silent --show-error https://getcomposer.org/installer | php -- --quiet \
+    && mv composer.phar /usr/local/bin/composer
 
 COPY composer.* /code/
 RUN composer install $COMPOSER_FLAGS --no-scripts --no-autoloader
